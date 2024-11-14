@@ -929,7 +929,5 @@ export default {
   display: block;
   float: left;
 }
-.el-date-editor.el-input {
-  width: 160px;
-}
+
 </style>
