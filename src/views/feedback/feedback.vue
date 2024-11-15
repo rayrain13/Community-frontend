@@ -1,7 +1,7 @@
 <template>
   <div id="feedback">
     <div class="feedbackBox">
-      <h2>投诉反馈</h2>
+      <h3>投诉反馈</h3>
       <div class="addOptionBox" v-if="!role">
         <button type="button" @click="openAdd">新增投诉反馈</button>
       </div>
