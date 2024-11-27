@@ -282,7 +282,7 @@
               <span class="check_info">{{ staffDetail.sex }}</span>
             </div>
             <div class="check_form2">
-              <span class="check_word">手机号:</span>
+              <span class="check_word">手机号：</span>
               <span class="check_info">{{ staffDetail.phone }}</span>
             </div>
           </div>

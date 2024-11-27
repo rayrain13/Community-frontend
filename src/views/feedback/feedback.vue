@@ -107,7 +107,7 @@
               <br>
               <el-input
                   type="textarea"
-                  placeholder="请输入处理结果"
+                  placeholder="请输入处理结果:"
                   style="font-size:18px;width:92%"
                   resize="none"
                   :rows="8"
@@ -170,7 +170,7 @@
               <span>{{ feedbackMsg.employeeName }}</span>
             </li>-->
             <li class="result">
-              处理结果：
+              处理结果:
               <span>{{ feedbackMsg.result }}</span>
             </li>
           </ul>
@@ -247,7 +247,7 @@
       }
     },
     methods:{
-      /* 打开新增投诉反馈窗口 */
+      /* 打开新增投诉反馈窗口  */
       openAdd() {
         this.addWindows = true;
       },

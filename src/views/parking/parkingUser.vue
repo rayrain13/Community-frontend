@@ -23,7 +23,7 @@
       </div>
       <div class="parking_img">
         <div class="picture">
-          <h4>可用车位</h4>
+          <h4>可用车位情况</h4>
           <el-progress
                   type="circle"
                   :percentage="parkingNum"
